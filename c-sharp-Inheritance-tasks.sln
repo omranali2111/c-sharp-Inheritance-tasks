@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c-sharp-Inheritance-tasks", "c-sharp-Inheritance-tasks\c-sharp-Inheritance-tasks.csproj", "{162D33E9-5E5F-4871-8D01-45123A09E733}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{162D33E9-5E5F-4871-8D01-45123A09E733}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{162D33E9-5E5F-4871-8D01-45123A09E733}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{162D33E9-5E5F-4871-8D01-45123A09E733}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{162D33E9-5E5F-4871-8D01-45123A09E733}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF87E6E1-C617-4F48-9509-4F1F75ED11F7}
+	EndGlobalSection
+EndGlobal
