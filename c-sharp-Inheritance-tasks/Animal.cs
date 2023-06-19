@@ -29,5 +29,10 @@ string Sound: Represents the sound the dog makes.
         }
 
         public abstract void makeSound();
+
+        public virtual void getSound()
+        {
+            Console.WriteLine("this is base class");
+        }
     }
 }

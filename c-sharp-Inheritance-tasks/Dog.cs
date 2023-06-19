@@ -33,5 +33,10 @@ string Sound: Represents the sound the dog makes.
             Console.WriteLine("dog sound:wof wof");
         }
 
+        public override void getSound()
+        {
+            Console.WriteLine("this is derived class");
+        }
+
     }
 }

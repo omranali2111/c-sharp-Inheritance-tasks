@@ -17,5 +17,6 @@ internal class Program
 
         Dog dog1 = new Dog("jack",2,"breed","wof");
         dog1.makeSound();
+        dog1.getSound();
     }
 }
