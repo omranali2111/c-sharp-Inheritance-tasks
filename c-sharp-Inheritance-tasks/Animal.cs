@@ -34,6 +34,15 @@ string Sound: Represents the sound the dog makes.
         {
             Console.WriteLine("this is base class");
         }
+
+        public override  bool Equals(object? obj) 
+        {
+            Animal animal = obj as Animal;
+            if (animal == null) { return false; }
+
+            return this.name==((Animal)obj).name;//downcsting
+        
+        }
     }
 
     sealed class wildAnimal 

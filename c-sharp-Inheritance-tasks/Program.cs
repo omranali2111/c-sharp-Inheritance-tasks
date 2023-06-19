@@ -16,7 +16,10 @@ internal class Program
         Console.WriteLine("===============================================");
 
         Dog dog1 = new Dog("jack",2,"breed","wof");
+        Dog dog2 = new Dog("jacky", 2, "breed", "wof");
         dog1.makeSound();
         dog1.getSound();
+
+        Console.WriteLine(dog1.Equals(dog2));
     }
 }

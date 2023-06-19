@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace c_sharp_Inheritance_tasks
 {
-    internal class Lion: wildAnimal//can not be inherited 
-    {
-    }
+    //internal class Lion: wildAnimal//can not be inherited 
+    //{
+    //}
 }
