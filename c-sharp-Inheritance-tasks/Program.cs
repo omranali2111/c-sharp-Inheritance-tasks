@@ -19,7 +19,7 @@ internal class Program
         Dog dog2 = new Dog("jacky", 2, "breed", "wof");
         dog1.makeSound();
         dog1.getSound();
-
+        dog1.doSomething();
         Console.WriteLine(dog1.Equals(dog2));
     }
 }

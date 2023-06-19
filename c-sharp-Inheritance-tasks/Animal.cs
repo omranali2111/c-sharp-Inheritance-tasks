@@ -35,6 +35,11 @@ string Sound: Represents the sound the dog makes.
             Console.WriteLine("this is base class");
         }
 
+        public  void doSomething()
+        {
+            Console.WriteLine("this is base class");
+        }
+
         public override  bool Equals(object? obj) 
         {
             Animal animal = obj as Animal;
