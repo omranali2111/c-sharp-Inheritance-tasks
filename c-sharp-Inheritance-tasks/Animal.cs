@@ -35,4 +35,16 @@ string Sound: Represents the sound the dog makes.
             Console.WriteLine("this is base class");
         }
     }
+
+    sealed class wildAnimal 
+    { 
+        public string name;
+        public int age;
+
+        public wildAnimal(string name, int age)
+        {
+            this.name = name;
+            this.age = age;
+        }
+    }
 }
