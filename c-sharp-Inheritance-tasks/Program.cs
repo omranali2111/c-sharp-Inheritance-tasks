@@ -12,5 +12,10 @@ internal class Program
         Console.WriteLine("===============================================");
 
         Rectangle1 rectangle = new Rectangle1("red", 0, 2.4, 2.5);
+
+        Console.WriteLine("===============================================");
+
+        Dog dog1 = new Dog("jack",2,"breed","wof");
+        dog1.makeSound();
     }
 }

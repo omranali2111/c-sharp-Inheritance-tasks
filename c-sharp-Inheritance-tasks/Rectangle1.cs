@@ -32,7 +32,7 @@ of the base class to initialize the inherited properties.
             Area = calcArea(Width, Height);
 
 
-            Console.WriteLine("the Area of the rectangle is: " + Area);
+            Console.WriteLine("The Area of the rectangle is: " + Area);
         }
 
         
