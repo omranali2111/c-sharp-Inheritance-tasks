@@ -1,4 +1,5 @@
 ﻿using c_sharp_Inheritance_tasks;
+using System.Drawing;
 using System.Xml.Linq;
 
 internal class Program
@@ -9,5 +10,7 @@ internal class Program
         student1.printData();
 
         Console.WriteLine("===============================================");
+
+        Rectangle1 rectangle = new Rectangle1("red", 0, 2.4, 2.5);
     }
 }
