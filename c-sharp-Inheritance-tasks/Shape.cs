@@ -21,7 +21,7 @@ of the base class to initialize the inherited properties.
     internal class Shape
     {
         string Color;
-        double Area;
+        double? Area;
 
         public Shape()
         {
@@ -32,7 +32,11 @@ of the base class to initialize the inherited properties.
             this.Color = color;
             this.Area = Area;
         }
-
+        public Shape(string color)
+        {
+            this.Color = color;
+           
+        }
         public double calcArea(double w, double h)
         {
             double Width = w;

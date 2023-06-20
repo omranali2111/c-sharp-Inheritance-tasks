@@ -11,7 +11,7 @@ internal class Program
 
         //Console.WriteLine("===============================================");
 
-        //Rectangle1 rectangle = new Rectangle1("red", 0, 2.4, 2.5);
+        Rectangle1 rectangle = new Rectangle1( 2.4, 2.5);//using overloading
 
         //Console.WriteLine("===============================================");
 

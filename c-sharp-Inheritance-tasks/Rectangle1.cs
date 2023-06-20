@@ -34,7 +34,16 @@ of the base class to initialize the inherited properties.
 
             Console.WriteLine("The Area of the rectangle is: " + Area);
         }
+        public Rectangle1(double width, double height):base()
+        {
+            Width = width;
+            Height = height;
+           double Area=calcArea(Width, Height);
 
-        
+
+            Console.WriteLine("The Area of the rectangle is: " + Area);
+        }
+
+
     }
 }
