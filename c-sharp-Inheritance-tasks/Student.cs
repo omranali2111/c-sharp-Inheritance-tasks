@@ -22,8 +22,8 @@ Create constructors for both classes to initialize the properties.
 */
     internal class Student:Person
     {
-        int StudentId;
-        string Major;
+        private int StudentId;
+       private string Major;
 
         public Student(string Name, int Age, int StudentId, string Major) : base( Name, Age) 
         { 

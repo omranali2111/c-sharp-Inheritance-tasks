@@ -6,10 +6,10 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        //Student student1 = new Student("omran", 27, 14125555, "commEng");
-        //student1.printData();
+        Student student1 = new Student("omran", 27, 14125555, "commEng");
+        student1.printData();
 
-        //Console.WriteLine("===============================================");
+        Console.WriteLine("===============================================");
 
         Rectangle1 rectangle = new Rectangle1( 2.4, 2.5);//using overloading
 

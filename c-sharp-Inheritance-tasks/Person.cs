@@ -23,10 +23,10 @@ Create constructors for both classes to initialize the properties.
     internal class Person
     {
 
-       public string Name;
-       public int Age;
+       protected string Name;
+        protected int Age;
 
-        public Person(string Name,int Age) 
+        protected Person(string Name,int Age) 
         {
          this.Name = Name;
          this.Age = Age;
